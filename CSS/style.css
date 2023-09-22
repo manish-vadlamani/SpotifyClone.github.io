@@ -1,0 +1,911 @@
+body{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.NavBar{
+    background-color: rgb(14, 13, 13);
+    height: 175px;
+    width: 326px;
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 10px; 
+    position: fixed;
+}
+.NavBarLogo img{
+    height: 35px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Home{
+    align-items: center;
+    display: flex;
+    color: grey;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 25px;
+    height: 65px;
+    width: 145px;
+}
+.Home a{
+    color: grey;
+    margin-left: 7px;
+    text-decoration: None;
+    transition: color 0.3s;
+}
+.Home a:hover{
+    color: white;
+}
+.icon:hover{
+    color: white;
+}
+.Search{
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    margin-left: 25px;
+    height: 65px;
+    width: 145px;
+    margin-bottom: 10px;
+}
+.Search a{
+    color: grey;
+    margin-left:7px;
+    text-decoration: None;
+    transition: color 0.3s;
+}
+.Search a:hover {
+    color: white;
+}
+.NavBar2{
+    background-color: rgb(14, 13, 13);
+    height: 430px;
+    width: 326px;
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 10px;
+    position: fixed;
+}
+.Library{
+    align-items: center;
+    display: flex;
+    color: grey;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 25px;
+    height: 65px;
+    width: 320px;
+    transition: color 0.3s;
+}
+.Library p{
+    margin-left: 7px;
+    margin-right: 100px;
+}
+.Library:hover{
+    color: white;
+}
+.Playlist{
+    margin-left: 10px;
+    margin-right: 10px ;
+    color: white;
+    background-color:rgb(61, 61, 61);
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 10px;
+}
+p{
+    margin-left: 10px;
+}
+.CreatePlaylist{
+    top: 80px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 22px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: transform 0.2s;
+    margin-bottom: 10px;
+}
+.CreatePlaylist:hover{
+    transform: scale(1.1);
+}
+.Broadcasts{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px ;
+    color: white;
+    background-color:rgb(61, 61, 61);
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 10px;
+}
+.CreateBroadcast{
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 22px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: transform 0.2s;
+    margin-bottom: 10px;
+}
+.CreateBroadcast:hover{
+    transform: scale(1.1);
+}
+.PlaylistBroadCastScroll{
+    width: 300px;
+    height: 125px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(14, 13, 13);
+}
+.PlaylistBroadCastScroll:hover{
+    overflow: auto;
+}
+.line1{
+    margin-left: 4px;
+    margin-top: 40px;
+    display: flex;
+    color: rgb(138, 136, 136);
+    font-size: 12px;
+    justify-content: space-around;
+}
+.line2{
+    display: flex;
+    color: rgb(138, 136, 136);
+    font-size: 12px;
+    justify-content: space-around;
+}
+.line3{
+    margin-left: 22px;
+    display: flex;
+    color: rgb(138, 136, 136);
+    font-size: 12px;
+}
+.Languages{
+    margin-top: 20px;
+    display: flex;
+    color: white;
+}
+.LanguagesButton{
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: white;
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 18px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s;
+    margin-bottom: 10px;
+}
+.LanguagesButton:hover{
+    transform: scale(1.1);
+}
+.NavBar3{
+    display: flex;
+    position: fixed;
+    top:10px;
+    margin-left: 340px;
+    background-color: rgb(14, 13, 13);
+    width: 1005px;
+    height: 40px;
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 10px;
+}
+.BackArrow{
+    padding: 10px 10px;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-right: 3px;
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 20px;
+}
+.FrontArrow{
+    padding: 10px 10px;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-right: 10px;
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 20px;
+}
+.BackArrow:hover{
+    transform: scale(1.2);
+}
+.FrontArrow:hover{
+    transform: scale(1.2);
+}
+.Premium{
+    align-items: center;
+    display: flex;
+    color: grey;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.Premium a{
+    color: grey;
+    margin-left: 375px;
+    text-decoration: None;
+    transition: color 0.3s;
+}
+.Premium a:hover{
+    color: white;
+}
+.Support{
+    align-items: center;
+    display: flex;
+    color: grey;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.Support a{
+    color: grey;
+    margin-left: 2px;
+    text-decoration: None;
+    transition: color 0.3s;
+}
+.Support a:hover{
+    color: white;
+}
+.Download{
+    align-items: center;
+    display: flex;
+    color: grey;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.Download a{
+    color: grey;
+    margin-left: 2px;
+    text-decoration: None;
+    transition: color 0.3s;
+}
+.Download a:hover{
+    color: white;
+}
+.SignUp{
+    align-items: center;
+    display: flex;
+    color: grey;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 45px;
+}
+.SignUp a{
+    color: grey;
+    margin-left: 2px;
+    text-decoration: None;
+    transition: color 0.3s;
+}
+.SignUp a:hover{
+    color: white;
+}
+.LogIn{
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 22px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.2s;
+}
+.LogIn a{
+    text-decoration: None;
+    color: black;
+}
+.LogIn:hover{
+    transform: scale(1.1);
+}
+.MainContent{
+    background-color: rgb(29, 29, 29);
+    overflow: hidden;
+    position: relative;
+    top: -150px;
+    width: 1010px;
+    height: 580px;
+    margin-left: 340px;
+    border: 2px solid rgb(29, 29, 29);
+    border-radius: 7px;
+}
+.MainContent:hover{
+    overflow: auto;
+}
+.MainContent::-webkit-scrollbar{
+    width: 0px;
+}
+.SpotifyPlaylists{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    overflow: auto;
+}
+.SpotifyPlaylists a{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: None;
+}
+.SpotifyPlaylists a:hover{
+    text-decoration: underline;
+}
+.TrendingPlaylists{
+    display: flex;
+    height: 300px;
+    width: 1000px;
+}
+.TopHits{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.TopHits b{
+    color: white;
+    font-size: 15px;
+}
+.TopHits{
+    color: grey;
+    font-size: 13px;
+}
+.TopHits img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.TopHits:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.RapCaviar{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.RapCaviar b{
+    color: white;
+    font-size: 15px;
+}
+.RapCaviar{
+    color: grey;
+    font-size: 13px;
+}
+.RapCaviar img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.RapCaviar:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.AllOut{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.AllOut b{
+    color: white;
+    font-size: 15px;
+}
+.AllOut{
+    color: grey;
+    font-size: 13px;
+}
+.AllOut img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.AllOut:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.RockClassics{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.RockClassics b{
+    color: white;
+    font-size: 15px;
+}
+.RockClassics{
+    color: grey;
+    font-size: 13px;
+}
+.RockClassics img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.RockClassics:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.ChillHits{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.ChillHits b{
+    color: white;
+    font-size: 15px;
+}
+.ChillHits{
+    color: grey;
+    font-size: 13px;
+}
+.ChillHits img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.ChillHits:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.Focus{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    overflow: auto;
+}
+.Focus a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: None;
+}
+.Focus a:hover{
+    text-decoration: underline;
+}
+.TrendingPlaylists2{
+    display: flex;
+    height: 300px;
+    width: 1000px;
+}
+.PeacefulPiano{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.PeacefulPiano b{
+    color: white;
+    font-size: 15px;
+}
+.PeacefulPiano{
+    color: grey;
+    font-size: 13px;
+}
+.PeacefulPiano img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.PeacefulPiano:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.DeepFocus{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.DeepFocus b{
+    color: white;
+    font-size: 15px;
+}
+.DeepFocus{
+    color: grey;
+    font-size: 13px;
+}
+.DeepFocus img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.DeepFocus:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.InstrumentalStudy{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.InstrumentalStudy b{
+    color: white;
+    font-size: 15px;
+}
+.InstrumentalStudy{
+    color: grey;
+    font-size: 13px;
+}
+.InstrumentalStudy img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.InstrumentalStudy:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.FocusFlow{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.FocusFlow b{
+    color: white;
+    font-size: 15px;
+}
+.FocusFlow{
+    color: grey;
+    font-size: 13px;
+}
+.FocusFlow img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.FocusFlow:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.WorkDayLounge{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.WorkDayLounge b{
+    color: white;
+    font-size: 15px;
+}
+.WorkDayLounge{
+    color: grey;
+    font-size: 13px;
+}
+.WorkDayLounge img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.WorkDayLounge:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.SoundofIndia{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    overflow: auto;
+}
+.SoundofIndia a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: None;
+}
+.SoundofIndia a:hover{
+    text-decoration: underline;
+}
+.TrendingPlaylists3{
+    display: flex;
+    height: 380px;
+    width: 1000px;
+}
+.Hyderbad{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.Hyderbad b{
+    color: white;
+    font-size: 15px;
+}
+.Hyderbad{
+    color: grey;
+    font-size: 13px;
+}
+.Hyderbad img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.Hyderbad:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.Banglore{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.Banglore b{
+    color: white;
+    font-size: 15px;
+}
+.Banglore{
+    color: grey;
+    font-size: 13px;
+}
+.Banglore img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.Banglore:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.Mumbai{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.Mumbai b{
+    color: white;
+    font-size: 15px;
+}
+.Mumbai{
+    color: grey;
+    font-size: 13px;
+}
+.Mumbai img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.Mumbai:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.Chennai{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.Chennai b{
+    color: white;
+    font-size: 15px;
+}
+.Chennai{
+    color: grey;
+    font-size: 13px;
+}
+.Chennai img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.Chennai:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.Delhi{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(14, 13, 13) ;
+    height: 260px;
+    width: 180px;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 18px;
+}
+.Delhi b{
+    color: white;
+    font-size: 15px;
+}
+.Delhi{
+    color: grey;
+    font-size: 13px;
+}
+.Delhi img{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 140px;
+    border-radius: 10px;
+}
+.Delhi:hover{
+    background-color:  rgb(61, 61, 61);
+}
+.Credentials{
+    height: 220px;
+    width: 1010px;
+    display: flex;
+}
+.ContactUs1{
+    margin-left: 30px;
+    height: 200px;
+    width: 200px;
+    font-size: 16px;
+    color: white;
+}
+.ContactUs1 a{
+    margin-left: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    text-decoration: None;
+    font-size: 16px;
+    color: grey;
+}
+.ContactUs1 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.ContactUs2{
+    margin-left: 30px;
+    height: 200px;
+    width: 200px;
+    font-size: 16px;
+    color: white;
+}
+.ContactUs2 a{
+    margin-left: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    text-decoration: None;
+    font-size: 16px;
+    color: grey;
+}
+.ContactUs2 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.ContactUs3{
+    margin-left: 30px;
+    height: 200px;
+    width: 200px;
+    font-size: 16px;
+    color: white;
+}
+.ContactUs3 a{
+    margin-left: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    text-decoration: None;
+    font-size: 16px;
+    color: grey;
+}
+.ContactUs3 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.Links button{
+    margin-left: 30px;
+    background-color: rgb(14, 13, 13);
+    margin-right: 5px;
+    font-size: 25px;
+    padding: 9px 12px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.Links button:hover{
+    background-color: rgb(61, 61, 61);
+}
+.CopyRights{
+    height: 120px;
+    width: 1010px;
+}
+.CopyRights p{
+    margin-top: 30px;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 70px;
+}
